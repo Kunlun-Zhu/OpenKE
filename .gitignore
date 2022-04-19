@@ -135,3 +135,6 @@ venv.bak/
 
 #Backup files
 *.py.bak
+benchmarks/WIKI5M/wikidata5m_inductive_test.txt
+benchmarks/WIKI5M/wikidata5m_inductive_train.txt
+benchmarks/WIKI5M/wikidata5m_inductive_valid.txt
