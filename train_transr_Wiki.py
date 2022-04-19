@@ -7,7 +7,7 @@ from openke.data import TrainDataLoader, TestDataLoader
 
 # dataloader for training
 train_dataloader = TrainDataLoader(
-	in_path = "./benchmarks/FB15K237/", 
+	in_path = "./benchmarks/WIKI5M/", 
 	nbatches = 100,
 	threads = 8, 
 	sampling_mode = "normal", 
@@ -18,7 +18,7 @@ train_dataloader = TrainDataLoader(
 
 # dataloader for test
 test_dataloader = TestDataLoader(
-	in_path = "./benchmarks/FB15K237/",
+	in_path = "./benchmarks/WIKI5M/",
 	sampling_mode = 'link')
 
 # define the model
