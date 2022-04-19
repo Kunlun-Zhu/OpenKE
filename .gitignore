@@ -138,3 +138,6 @@ venv.bak/
 benchmarks/WIKI5M/wikidata5m_inductive_test.txt
 benchmarks/WIKI5M/wikidata5m_inductive_train.txt
 benchmarks/WIKI5M/wikidata5m_inductive_valid.txt
+benchmarks/WIKI5M/wikidata5m_transductive_test.txt
+benchmarks/WIKI5M/wikidata5m_transductive_train.txt
+benchmarks/WIKI5M/wikidata5m_transductive_valid.txt
