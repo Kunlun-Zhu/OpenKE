@@ -46,7 +46,6 @@ for line in triple:
         ent_num += 1
     if r in rel_dict.keys():
         write_line += ("%d\n"%rel_dict[r])
-        rel_num += 1
     else:
         rel_dict[r] = rel_num
         write_line += ("%d\n"%rel_num)
@@ -76,7 +75,6 @@ for line in valid:
         ent_num += 1
     if r in rel_dict.keys():
         write_line += ("%d\n"%rel_dict[r])
-        rel_num += 1
     else:
         rel_dict[r] = rel_num
         write_line += ("%d\n"%rel_num)
@@ -105,7 +103,6 @@ for line in test:
         ent_num += 1
     if r in rel_dict.keys():
         write_line += ("%d\n"%rel_dict[r])
-        rel_num += 1
     else:
         rel_dict[r] = rel_num
         write_line += ("%d\n"%rel_num)

@@ -146,3 +146,7 @@ benchmarks/WIKI5M/train2id.txt
 benchmarks/WIKI5M/valid2id.txt
 benchmarks/WIKI5M/entity2id.txt
 benchmarks/WIKI5M/relation2id.txt
+benchmarks/WIKI5M/valid.txt
+benchmarks/WIKI5M/n-n.py
+benchmarks/WIKI5M/test.txt
+benchmarks/WIKI5M/train.txt
