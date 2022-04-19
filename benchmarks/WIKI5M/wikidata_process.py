@@ -1,28 +1,22 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[22]:
+
 
 
 #step1. Load the file
-triple = open("wikidata5m_transductive_train.txt", "r")
-valid = open("wikidata5m_transductive_valid.txt", "r")
-test = open("wikidata5m_transductive_test.txt", "r")
-
-
-# In[21]:
+triple = open("train.txt", "r")
+valid = open("valid.txt", "r")
+test = open("test.txt", "r")
 
 
 tripleline = len(triple.readlines())
 validline = len(valid.readlines())
 testline = len(test.readlines())
 
-triple = open("wikidata5m_transductive_train.txt", "r")
-valid = open("wikidata5m_transductive_valid.txt", "r")
-test = open("wikidata5m_transductive_test.txt", "r")
-
-
-# In[23]:
+triple = open("train.txt", "r")
+valid = open("valid.txt", "r")
+test = open("test.txt", "r")
 
 
 #Load triplet
@@ -122,21 +116,15 @@ for line in test:
 f_t.close()
 test.close()
 
+f_e = open("entity2id.txt", "w")
+f_e.write("%d\n"%len(ent_dict))
+for key, value in ent_dict.items():
+    f_e.write("%s\t%d\n"%(key, value))
+f_e.close()
 
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
+f_r = open("relation2id.txt", "w")
+f_r.write("%d\n"%len(rel_dict))
+for key, value in rel_dict.items():
+    f_r.write("%s\t%d\n"%(key, value))
+f_r.close()
 

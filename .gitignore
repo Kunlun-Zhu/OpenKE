@@ -144,3 +144,6 @@ benchmarks/WIKI5M/wikidata5m_transductive_valid.txt
 benchmarks/WIKI5M/test2id.txt
 benchmarks/WIKI5M/train2id.txt
 benchmarks/WIKI5M/valid2id.txt
+benchmarks/WIKI5M/entity2id.txt
+benchmarks/WIKI5M/relation2id.txt
+train_transe_Wiki.py
